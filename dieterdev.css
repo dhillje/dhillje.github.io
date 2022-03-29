@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Manrope:wght@200&display=swap");
+
+body {
+  font-family: "Manrope", sans-serif;
+  margin: 0;
+  position: relative;
+}
+
+.homepage {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 48px;
+}
+p {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 2px;
+  font-size: 15px;
+  color: #f5f1f1;
+}
+
+.headertop {
+  height: 5rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* .fa-facebook {
+  background: #3b5998;
+  color: white;
+} */
+
+.fa-github {
+  background: #3b5998;
+  color: white;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  background: linear-gradient(
+    60deg,
+    rgb(110, 36, 150) 0%,
+    rgb(193, 33, 185) 100%
+  );
+  color: white;
+}
+
+.navbar {
+  margin-bottom: 90px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  border-style: solid;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: rgb(193, 33, 185);
+  background-color: white;
+}
+
+.show-modal {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  border-style: solid;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  background-color: rgb(110, 36, 150);
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.form {
+  text-align: center;
+  margin: 15px;
+}
+
+input {
+  border-radius: 5px;
+}
+
+button {
+  background-color: white;
+  color: rgb(193, 33, 185);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: rgb(193, 33, 185);
+  color: white;
+}
+
+.logo {
+  width: 18rem;
+}
+
+.inner-header {
+  height: 65vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px; /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 150px;
+}
+
+.content {
+  position: relative;
+  height: 20vh;
+  text-align: center;
+  background-color: white;
+}
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+
+/* Content begins here */
+
+.about {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.aboutme {
+  text-align: center;
+}
+
+.Dieter {
+  width: 20rem;
+  border-radius: 20%;
+}
+
+strong {
+  color: rgb(193, 33, 185);
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: rgb(193, 33, 185);
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  height: 10rem;
+  width: 40rem;
+  background-color: rgb(193, 33, 185);
+}
+
+.skills {
+  background: linear-gradient(
+    60deg,
+    rgb(110, 36, 150) 0%,
+    rgb(193, 33, 185) 100%
+  );
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cards {
+  color: white;
+  width: 25rem;
+  margin: auto;
+  display: inline-block;
+}
+
+/* Portfolio Portion */
+
+.portfolio {
+  background-color: white;
+  text-align: center;
+  color: black;
+}
+
+.card {
+  margin: 2rem 1rem 2rem 1rem;
+  border: none;
+  border-radius: 0px;
+  box-shadow: -2px 1px 8px 1px lightgrey;
+}
+
+.portfolio-card__image {
+  max-height: 15rem;
+}
+
+.portfolio-card__title {
+  font-size: 2rem;
+  color: rgb(193, 33, 185);
+}
+
+.portfolio-card__category {
+  font-size: 1rem;
+}
+
+.portfolio-card__text {
+  font-size: 1rem;
+  color: black;
+}
+
+.portfolio-card__stage {
+  padding: 6px;
+}
+
+.portfolio-card__stage__icon {
+  margin-right: 5px;
+}
+
+.portfolio-card__link {
+  font-size: 0.8rem;
+  color: rgb(193, 33, 185);
+  transition: 0.3s;
+  padding: 10px;
+}
+
+.portfolio-card__link:hover {
+  color: rgb(110, 36, 150);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+/*Shrinking for mobile*/
+@media (max-width: 700px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+  .content {
+    height: 30vh;
+  }
+  h1 {
+    font-size: 24px;
+  }
+
+  .navbar {
+    margin-bottom: 120px;
+  }
+  a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .description {
+    height: auto;
+    width: auto;
+  }
+
+  .cards {
+    width: auto;
+  }
+
+  .show-modal {
+    width: 20rem;
+  }
+
+  img {
+    width: 20em;
+  }
+}
