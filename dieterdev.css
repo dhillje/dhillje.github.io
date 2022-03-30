@@ -239,6 +239,7 @@ button:hover {
 
 .aboutme {
   text-align: center;
+  font-size: 18px;
 }
 
 .Dieter {
@@ -263,6 +264,7 @@ strong {
   height: 10rem;
   width: 40rem;
   background-color: rgb(193, 33, 185);
+  font-size: 18px;
 }
 
 .skills {
