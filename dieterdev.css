@@ -140,12 +140,13 @@ a:hover {
   z-index: 5;
 }
 
-.form {
-  text-align: center;
-  margin: 15px;
+input {
+  border-radius: 5px;
+  height: 20px;
+  width: 200px;
 }
 
-input {
+textarea {
   border-radius: 5px;
 }
 
