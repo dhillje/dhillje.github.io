@@ -1,8 +1,3 @@
 # myportfolio
 
-Repository for portfolio site
-
-03/29/2022- Implement first commit. Create Github page. 
-
-
-03/30/2022 Cloned repository to VS 
+Repository for my current portfolio site. Changes are still ongoing and wishing to implement changes such as dark mode and portfolio expansion.
