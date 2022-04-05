@@ -281,6 +281,10 @@ strong {
   text-align: center;
 }
 
+.skills h2 {
+  font-size: 35px;
+}
+
 .cards {
   color: white;
   width: 25rem;
@@ -294,6 +298,10 @@ strong {
   background-color: white;
   text-align: center;
   color: black;
+}
+
+.portfolio h2 {
+  font-size: 35px;
 }
 
 .card {
