@@ -151,10 +151,13 @@ textarea {
 }
 
 button {
-  background-color: white;
+  text-decoration: none;
   color: rgb(193, 33, 185);
+  display: inline-block;
+  margin: 10px;
+  border-style: solid;
+  padding: 7px;
   border-radius: 5px;
-  padding: 5px;
 }
 
 button:hover {
