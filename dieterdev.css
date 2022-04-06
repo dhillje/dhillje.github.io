@@ -83,6 +83,7 @@ a {
   border-style: solid;
   padding: 7px;
   border-radius: 5px;
+  width: 70px;
 }
 
 a:hover {
@@ -375,6 +376,7 @@ footer {
   a {
     display: flex;
     justify-content: center;
+    width: auto;
   }
 
   .about {
