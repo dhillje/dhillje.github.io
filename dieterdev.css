@@ -296,6 +296,10 @@ strong {
 /* Portfolio Portion */
 
 .portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: white;
   text-align: center;
   color: black;
@@ -310,6 +314,7 @@ strong {
   border: none;
   border-radius: 0px;
   box-shadow: -2px 1px 8px 1px lightgrey;
+  width: 50rem;
 }
 
 .portfolio-card__image {
@@ -389,6 +394,10 @@ footer {
   }
 
   .cards {
+    width: auto;
+  }
+
+  .card {
     width: auto;
   }
 
