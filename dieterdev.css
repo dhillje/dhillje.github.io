@@ -84,6 +84,7 @@ a {
   padding: 7px;
   border-radius: 5px;
   width: 70px;
+  transition: 0.5s;
 }
 
 a:hover {
