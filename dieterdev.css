@@ -122,7 +122,7 @@ a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
+  width: 50%;
 
   background-color: rgb(110, 36, 150);
   padding: 6rem;
@@ -412,5 +412,10 @@ footer {
 
   img {
     width: 20em;
+  }
+
+  .modal {
+    width: 70%;
+    height: 70%;
   }
 }
