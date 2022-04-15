@@ -289,9 +289,13 @@ strong {
 
 .cards {
   color: white;
-  width: 25rem;
-  margin: auto;
+  width: 30rem;
+  margin: 20px;
   display: inline-block;
+}
+
+.cards p {
+  font-size: large;
 }
 
 /* Portfolio Portion */
