@@ -345,7 +345,8 @@ strong {
 }
 
 .portfolio-card__link {
-  color: rgb(193, 33, 185);
+  background-color: rgb(193, 33, 185);
+  color: white;
   margin: 10px;
   border-style: solid;
   width: 50px;
