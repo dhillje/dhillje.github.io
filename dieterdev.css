@@ -290,12 +290,15 @@ strong {
 .cards {
   color: white;
   width: 30rem;
-  margin: 20px;
+  margin: 15px;
   display: inline-block;
+}
+.cards h3 {
+  font-size: 22px;
 }
 
 .cards p {
-  font-size: large;
+  font-size: medium;
 }
 
 /* Portfolio Portion */
