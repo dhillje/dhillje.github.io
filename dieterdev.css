@@ -63,11 +63,7 @@ p {
 .header {
   position: relative;
   text-align: center;
-  background: linear-gradient(
-    60deg,
-    rgb(110, 36, 150) 0%,
-    rgb(193, 33, 185) 100%
-  );
+  background-color: #94c9f8;
   color: white;
 }
 
@@ -88,7 +84,7 @@ a {
 }
 
 a:hover {
-  color: rgb(193, 33, 185);
+  color: #007bb5;
   background-color: white;
 }
 
@@ -167,7 +163,8 @@ button:hover {
 }
 
 .logo {
-  width: 18rem;
+  margin-top: 2rem;
+  width: 12rem;
 }
 
 .inner-header {
@@ -253,7 +250,7 @@ button:hover {
 }
 
 strong {
-  color: rgb(193, 33, 185);
+  color: #66b0d3;
 }
 
 .description {
@@ -261,23 +258,24 @@ strong {
   justify-content: center;
   align-items: center;
   border-style: solid;
-  border-color: rgb(168, 33, 162);
+  border-color: #80bdda;
   margin-right: 20px;
   margin-left: 20px;
   border-radius: 5px;
   padding: 5px;
   height: 10rem;
   width: 40rem;
-  background-color: rgb(169, 37, 162);
+  background-color: #80bdda;
   font-size: 18px;
 }
 
 .skills {
-  background: linear-gradient(
+  /* background: linear-gradient(
     60deg,
     rgb(110, 36, 150) 0%,
     rgb(193, 33, 185) 100%
-  );
+  ); */
+  background-color: #94c9f8;
   color: white;
   border-radius: 5px;
   text-align: center;
@@ -331,7 +329,7 @@ strong {
 
 .portfolio-card__title {
   font-size: 2rem;
-  color: rgb(193, 33, 185);
+  color: #66b0d3;
 }
 
 .portfolio-card__category {
@@ -352,11 +350,11 @@ strong {
 }
 
 .portfolio-card__link {
-  background-color: rgb(193, 33, 185);
+  background-color: #80bdda;
   color: white;
   margin: 10px;
   border-style: solid;
-  border-color: rgb(193, 33, 185);
+  border-color: #80bdda;
   width: 50px;
   padding: 10px;
   border-radius: 5px;
