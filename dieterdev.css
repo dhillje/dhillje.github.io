@@ -120,7 +120,7 @@ a:hover {
   transform: translate(-50%, -50%);
   width: 50%;
 
-  background-color: rgb(110, 36, 150);
+  background-color: #94c9f8;
   padding: 6rem;
   border-radius: 5px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
@@ -150,15 +150,16 @@ textarea {
 
 button {
   text-decoration: none;
-  color: rgb(193, 33, 185);
+  color: #80bdda;
   margin: 10px;
   border-style: solid;
   padding: 7px;
   border-radius: 5px;
+  border-color: #94c9f8;
 }
 
 button:hover {
-  background-color: rgb(193, 33, 185);
+  background-color: #80bdda;
   color: white;
 }
 
@@ -247,6 +248,7 @@ button:hover {
 .Dieter {
   width: 20rem;
   border-radius: 20%;
+  background: linear-gradient(180deg, #94c9f8 5%, #ffff 80%);
 }
 
 strong {
@@ -258,15 +260,16 @@ strong {
   justify-content: center;
   align-items: center;
   border-style: solid;
-  border-color: #80bdda;
+  border-color: #94c9f8;
   margin-right: 20px;
   margin-left: 20px;
   border-radius: 5px;
   padding: 5px;
   height: 10rem;
   width: 40rem;
-  background-color: #80bdda;
+  background-color: #94c9f8;
   font-size: 18px;
+  box-shadow: -2px 1px 8px 3px lightgrey;
 }
 
 .skills {
