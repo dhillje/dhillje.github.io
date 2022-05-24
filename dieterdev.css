@@ -376,6 +376,10 @@ footer {
 
 /*Shrinking for mobile*/
 @media (max-width: 700px) {
+  .logo {
+    width: 7.5rem;
+  }
+
   .waves {
     height: 40px;
     min-height: 40px;
